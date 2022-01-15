@@ -1,0 +1,9 @@
+---
+id: ID
+year_month: 年月
+customer_organization_id: 顧客組織
+comment: コメント
+created: 登録日時
+created_user_id: 登録者
+modified: 更新日時
+modified_user_id: 更新者

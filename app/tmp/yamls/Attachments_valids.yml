@@ -1,0 +1,941 @@
+---
+Document:
+  file1:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+    size: 65536KB
+  file2:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+    size: 65536KB
+  file3:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+    size: 65536KB
+  file4:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+    size: 65536KB
+  file5:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+    size: 65536KB
+Equipment:
+  file1:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+    size: 65536KB
+  file2:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+    size: 65536KB
+Information:
+  file1:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+      - exe
+    size: 65536KB
+  file2:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+      - exe
+    size: 65536KB
+  file3:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+      - exe
+    size: 65536KB
+  file4:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+      - exe
+    size: 65536KB
+  file5:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+      - exe
+    size: 65536KB
+MailTemplate:
+  comment:
+    extensions:
+      - csv
+    size: 65536KB
+Report:
+  template:
+    extensions:
+      - pdf
+    size: 10000KB
+Attachment:
+  attachment:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+      - exe
+    size: 100000KB
+Driver:
+  file1:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+      - exe
+    size: 65536KB
+  file2:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+      - exe
+    size: 65536KB
+  file3:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+      - exe
+    size: 65536KB
+  file4:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+      - exe
+    size: 65536KB
+  file5:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+      - exe
+    size: 65536KB
+  file6:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+      - exe
+    size: 65536KB
+  file7:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+      - exe
+    size: 65536KB
+  file8:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+      - exe
+    size: 65536KB
+  file9:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+      - exe
+    size: 65536KB
+  file10:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+      - exe
+    size: 65536KB
+  file11:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+      - exe
+    size: 65536KB
+  file12:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+      - exe
+    size: 65536KB
+  file13:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+      - exe
+    size: 65536KB
+  file14:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+      - exe
+    size: 65536KB
+  file15:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+      - exe
+    size: 65536KB
+  file16:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+      - exe
+    size: 65536KB
+  file17:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+      - exe
+    size: 65536KB
+  file18:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+      - exe
+    size: 65536KB
+  file19:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+      - exe
+    size: 65536KB
+  file20:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+      - exe
+    size: 65536KB
+Manual:
+  file1:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+    size: 65536KB
+  file2:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+    size: 65536KB
+  file3:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+    size: 65536KB
+  file4:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+    size: 65536KB
+  file5:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+    size: 65536KB
+  file6:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+    size: 65536KB
+  file7:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+    size: 65536KB
+  file8:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+    size: 65536KB
+  file9:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+    size: 65536KB
+  file10:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+    size: 65536KB
+  file11:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+    size: 65536KB
+  file12:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+    size: 65536KB
+  file13:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+    size: 65536KB
+  file14:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+    size: 65536KB
+  file15:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+    size: 65536KB
+  file16:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+    size: 65536KB
+  file17:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+    size: 65536KB
+  file18:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+    size: 65536KB
+  file19:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+    size: 65536KB
+  file20:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+    size: 65536KB
+CustomerOrganization:
+  macdTemplate:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+    size: 65536KB
+MacdWorkflow:
+  aplForm1:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+    size: 65536KB
+  aplForm2:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+    size: 65536KB
+  aplForm3:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+    size: 65536KB
+  aplForm4:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+    size: 65536KB
+  aplForm5:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+    size: 65536KB
+  attach1:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+    size: 65536KB
+  attach2:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+    size: 65536KB
+  attach3:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+    size: 65536KB
+  attach4:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+    size: 65536KB
+  attach5:
+    extensions:
+      - ppt
+      - doc
+      - xls
+      - pptx
+      - docx
+      - xlsx
+      - pdf
+      - tiff
+      - zip
+      - lzh
+      - cab
+    size: 65536KB

@@ -1,0 +1,12 @@
+#DocumentComment {
+    width: 325px;
+    height: 150px;
+}
+.list textarea {
+    font-size: 80%;
+    line-height: 1.6;
+}
+
+.list select {
+    width: 95%
+}

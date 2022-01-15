@@ -1,0 +1,12 @@
+---
+fields:
+  - Information.id
+  - Information.created
+  - Information.level
+  - Information.regular
+  - Information.title
+contain:
+  - CustomerOrganization.name
+order:
+  Information.created: DESC
+limit: 20

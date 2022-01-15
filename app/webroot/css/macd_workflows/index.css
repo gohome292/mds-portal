@@ -1,0 +1,15 @@
+table#template td,th {
+    border: 1px solid #CCCCCC;
+}
+
+#template #Attachment0Remove {
+    display: none;
+}
+
+#template input[type="file"] {
+    width: 500px;
+}
+
+#template span.comment {
+    display: none;
+}

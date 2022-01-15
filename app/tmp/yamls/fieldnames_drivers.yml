@@ -1,0 +1,10 @@
+---
+id: ID
+customer_organization_id:顧客組織
+driver_manual_type_id: 分類リスト
+place: 設置場所
+kiki: 機器番号
+created: 登録日時
+created_user_id: 登録者
+modified: 更新日時
+modified_user_id: 更新者

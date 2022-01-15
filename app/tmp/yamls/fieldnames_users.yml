@@ -1,0 +1,25 @@
+---
+id: ID
+username: ログインID
+password: パスワード
+name: 氏名
+group_id: 権限
+customer_organization_id: 顧客組織
+top_customer_organization_id: 顧客会社
+email: メールアドレス
+company_name_for_mail: 表示用会社名
+person_name_for_mail: 表示用氏名
+contact_address: 受付連絡先
+comment: メールコメント
+freeword1: 自由項目1
+freeword2: 自由項目2
+sendmail: メール送信
+login: ログイン日時
+logout: ログアウト日時
+access_information: お知らせ閲覧日時
+access_documents: 報告書閲覧日時
+disabled: 使用不可
+access_macd_workflows: MACD申請閲覧日時
+access_drivers: プリンタドライバー閲覧日時
+access_manuals: マニュアル閲覧日時
+mps_customer_id: 担当顧客

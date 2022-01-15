@@ -1,0 +1,19 @@
+#SystemMessageLeftSubject, #SystemMessageRightSubject {
+    width: 430px;
+    font-weight: bold;
+    font-size: 1.31em;
+}
+#SystemMessageLeftText, #SystemMessageRightText {
+    width: 430px;
+    height: 200px;
+    font-size: 80%;
+    line-height: 1.6;
+}
+.list {
+    margin: 8px;
+    padding: 0px;
+}
+.list td {
+    margin: 0px;
+    padding: 0px;
+}

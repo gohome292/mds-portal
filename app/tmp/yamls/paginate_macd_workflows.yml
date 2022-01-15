@@ -1,0 +1,17 @@
+---
+fields:
+  - MacdWorkflow.id
+  - MacdWorkflow.customer_organization_id
+  - MacdWorkflow.applied_title
+  - MacdWorkflow.status
+  - MacdWorkflow.comment
+  - MacdWorkflow.applied
+  - MacdWorkflow.applied_user_id
+
+contain:
+  - User.name
+  - Attachment
+order:
+  MacdWorkflow.status: ASC
+  MacdWorkflow.applied: DESC
+limit: 1000

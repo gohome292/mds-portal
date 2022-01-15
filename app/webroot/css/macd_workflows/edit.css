@@ -1,0 +1,59 @@
+.list {
+    padding: 5px;
+    margin: 5px;
+    width: 900px;
+}
+.list table {
+    border: 1px solid #CCCCCC;
+}
+.list th, .list td {
+    font-weight: normal;
+    padding: 3px 6px;
+    border: 1px solid #FFFFFF;
+    line-height: 1.2;
+    font-size: 100%;
+}
+.list textarea, .list input, .list select {
+    font-size: 100%;
+    line-height: 1.2;
+}
+.list th {
+    border-top: 1px solid #FFFFFF;
+    border-right: 1px solid #BBBBBB;
+    border-bottom: 1px solid #BBBBBB;
+    border-left: 1px solid #FFFFFF;
+    background-color: #DAE3FE;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.list td {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.fileInput {
+    border: 1px solid #999999;
+    padding: 5px;
+}
+.fileInput input[type="file"] {
+    margin-top: 3px;
+    width: 600px;
+}
+.fileInput A {
+    background-image:url(../../img/guest/btn/download_off.gif);
+    background-position:5px center;
+    background-repeat:no-repeat;
+    text-decoration:none;
+    margin-right:10px;
+    padding: 3px 0 3px 28px;
+    line-height: 19px;
+    vertical-align: top;
+}
+.data A:hover { background-image:url(../../img/guest/btn/download_on.gif); }
+
+.fileInput div.small {
+    display: inline-block;
+    margin: 5px 40px 0 0;  
+    line-height: 19px;
+}
+

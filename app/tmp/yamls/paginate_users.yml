@@ -1,0 +1,11 @@
+---
+fields:
+  - User.id
+  - User.username
+  - User.name
+contain:
+  - Group.name
+  - CustomerOrganization.name
+order:
+  CustomerOrganization.lft: ASC
+limit: 20

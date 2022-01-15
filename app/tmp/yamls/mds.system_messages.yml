@@ -1,0 +1,15 @@
+---
+SystemMessage: 
+  left: 1
+  left_subject: ご利用上のご注意
+  left_text: |
+    本サービスをご利用になるには、ログインIDとパスワードが必要です。ログインID・パスワードを忘れた方は下記リンクからお問い合わせください。
+    https://www.rj-mds.com/portal_test/users/request_reset/
+    
+    本サービスお使いいただくにあたっては、対応OS「Microsoft&reg; Windows&reg; Vista&trade; 、7、8、10」および対応ブラウザ「Internet Explorer&reg; 7～11」のシステム環境にてご利用ください。その他のOS、ブラウザでは正しく動作しない場合があります。
+  right: 1
+  right_subject: メンテナンスについて
+  right_text: |
+    本サービスでは、より快適にご利用いただくために定期および緊急のメンテナンスを実施させていただいくことがございます。
+    
+    メンテナンスおよびサービス休止の際は、こちらでご案内させていただきます。

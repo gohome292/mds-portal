@@ -1,0 +1,32 @@
+@charset "UTF-8";
+html, textarea, input, select  {
+    /*font-size: medium;*/
+    font-family: "ＭＳ Ｐゴシック",Arial,sans-serif;
+}
+#content {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+div.submit {
+    display: inline;
+}
+.submit input, button {
+    margin: 0px 6px;
+}
+a, a:link, a:visited {
+    text-decoration: none;
+    color: #0000FF;
+}
+a:hover {
+    text-decoration: underline;
+    color: #0000FF;
+}
+a:active {
+    text-decoration: none;
+    color: #EE0000;
+}
+.error-message {
+    color: #990000;
+    font-weight: bold;
+    font-size: 80%;
+}

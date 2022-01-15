@@ -1,0 +1,35 @@
+.contact {
+    width:230px;
+    line-height:1.2;
+}
+.contact H3 {
+    color: #333;
+    background:#DDD url(../../img/guest/main/side.gif) left top no-repeat;
+    border-bottom:1px solid #BBB;
+    font-weight: bold;
+    margin:0;
+    padding:6px 10px;
+    font-size: 80%;
+}
+.contact .side-box {
+    background:transparent url(../../img/guest/main/side-end.gif) left bottom no-repeat;
+    margin-bottom:20px;
+    padding:10px 15px;
+    font-size: 80%;
+}
+.contact .side-box * {
+    margin:0;
+    padding:0;
+}
+.contact P {
+    text-align:center;
+}
+.contact .side-box P {
+    text-align:left;
+}
+.contact .side-box .mail {
+    background-image:url(../../img/guest/icon/mail.gif);
+    background-position:left top;
+    background-repeat:no-repeat;
+    padding:4px 0 20px 55px;
+}

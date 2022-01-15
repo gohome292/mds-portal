@@ -1,0 +1,17 @@
+#CustomerOrganizationPath {
+    width: 300px;
+}
+#UserEmail, #UserCompanyNameForMail, #UserPersonNameForMail {
+    width: 250px;
+}
+#UserContactAddress {
+    width: 220px;
+    height: 100px;
+    font-size: 80%;
+}
+#UserPassword1, #UserPassword2 {
+    width: 300px;
+}
+#cust_all, #cust_sel {
+    width: 200px;
+}

@@ -1,0 +1,25 @@
+.header {
+    padding: 2px 5px 5px 5px;
+}
+.header .username {
+    margin: 0px 10px;
+}
+.header #mainmenu_button {
+    width: 120px;
+}
+.header .text {
+    padding-top: 5px;
+}
+#tree_menu_area {
+    display: none;
+    position: absolute;
+    background: #EBE8DE;
+    border-top: 2px solid #EFEEEB;
+    border-right: 2px solid #7E7B76;
+    border-bottom: 2px solid #7E7B76;
+    border-left: 2px solid #EFEEEB;
+    margin-left: 5px;
+    padding: 5px 10px;
+    padding-right: 20px;
+    z-index: 1000;
+}

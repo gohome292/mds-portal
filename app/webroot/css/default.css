@@ -1,0 +1,72 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    background-color: #003D4C;
+}
+#content {
+    width: 900px;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: auto;
+}
+.list, .tree {
+    padding: 5px;
+    margin: 5px;
+}
+.list table {
+    border: 1px solid #CCCCCC;
+}
+.list th, .list td {
+    font-weight: normal;
+    padding: 3px 6px;
+    border: 1px solid #FFFFFF;
+    line-height: 1.2;
+    font-size: 90%;
+}
+.list textarea, .list input, .list select {
+    font-size: 100%;
+    line-height: 1.2;
+}
+.list th {
+    border-top: 1px solid #FFFFFF;
+    border-right: 1px solid #BBBBBB;
+    border-bottom: 1px solid #BBBBBB;
+    border-left: 1px solid #FFFFFF;
+    background-color: #DAE3FE;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.list td {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.edit, .remove {
+    width: 35px;
+}
+hr {
+    border-top: 1px solid #BBBBBB;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    color: #FFFFFF;
+    height: 0px;
+    width: 98%;
+    margin: auto;
+}
+.menu {
+    margin-left: 5px;
+}
+.menu img {
+    margin: 2px 0px;
+    padding: 2px 5px;
+}
+.paginator {
+    padding: 3px;
+    margin-left: 12px;
+}
+#list_area .paginator {
+    margin-left: 0px;
+}

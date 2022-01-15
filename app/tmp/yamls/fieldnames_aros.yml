@@ -1,0 +1,8 @@
+---
+id: その他
+parent_id: その他
+model: その他
+foreign_key: その他
+alias: その他
+lft: その他
+rght: その他

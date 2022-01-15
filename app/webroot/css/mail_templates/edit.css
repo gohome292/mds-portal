@@ -1,0 +1,29 @@
+#MailTemplateTitle {
+    width: 620px;
+}
+#MailTemplateBody {
+    width: 620px;
+    height: 200px;
+}
+#MailTemplateId {
+    width: 624px;
+}
+table#legend {
+    border-collapse: collapse;
+}
+table#legend th {
+    text-align: left;
+    font-weight: bold;
+    background-color: #D6F6FF;
+    border: 1px solid #CCCCCC;
+}
+table#legend td {
+    border: 1px solid #CCCCCC;
+}
+#mail_comment_output {
+    width: 120px;
+}
+.blue {
+    color: blue;
+    font-weight: bold;
+}

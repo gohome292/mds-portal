@@ -1,0 +1,16 @@
+id,parent_id,name,link,groups,users
+1,,お知らせ,/adm_informations/index,[1][2],
+2,,報告書,/adm_documents/index/0,[1][2],
+3,,機器管理情報,/adm_equipments/index/0,[1][2],
+4,,メール送信,/mail_histories/index,[1][2],
+5,,システム保守,,[1][2],
+6,5,メール送信設定,/mail_templates/edit,[1][2],
+7,5,ユーザ,/users/index,[1][2],
+8,5,顧客組織,/customer_organizations/index,,[1]
+9,5,ログイン画面メッセージ,/system_messages/index,[1][2],
+10,5,閲覧ログ,/users/output_log,[1][2],
+11,5,システム,/systems/index,[0],
+12,,開発者保守,,,[1]
+13,12,添付ファイル,/attachments/index,,[1]
+14,,パスワード変更,/users/self_edit,,
+15,,ログアウト,/users/logout,,

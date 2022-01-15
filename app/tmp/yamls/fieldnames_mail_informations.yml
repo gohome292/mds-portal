@@ -1,0 +1,10 @@
+---
+id: ID
+mail_history_id: メール送信履歴
+user_id: ユーザ
+start_date: 開始日時
+end_date: 終了日時
+forecast_end_time: 完了予測時間帯
+mail_count: メール件数
+confirm_date: 確認日時
+lock_date: 排他開始日時

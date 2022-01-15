@@ -1,0 +1,10 @@
+---
+id: ID
+customer_organization_id: 顧客組織
+use_informations: お知らせ機能利用
+use_documents: 報告書機能利用
+use_equipment: 機器管理情報機能利用
+use_macd_workflows: MACD申請機能利用
+use_drivers: プリンタドライバー利用
+use_manuals: マニュアル機能利用
+

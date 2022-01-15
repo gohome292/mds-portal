@@ -1,0 +1,12 @@
+---
+fields:
+  - Attachment.id
+  - Attachment.extension
+  - Attachment.alternative
+  - Attachment.size
+  - Attachment.created
+conditions:
+  Attachment.model: Attachment
+order:
+  Attachment.modified: ASC
+limit: 20

@@ -1,0 +1,13 @@
+#search_area .regular label {
+    display: inline;
+    margin-right: 10px;
+}
+#search_area legend {
+    display: none;
+}
+#search_area fieldset {
+    border: none;
+}
+#InformationTitle, #InformationContent {
+    width: 300px;
+}

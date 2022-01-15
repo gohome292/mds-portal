@@ -1,0 +1,20 @@
+---
+fields:
+  - MailHistory.id
+  - MailHistory.send_start_date
+  - MailHistory.send_end_date
+  - MailHistory.send_order_count
+  - MailHistory.success_count
+  - MailHistory.failure_count
+  - MailHistory.template_id
+  - MailHistory.template_seq
+  - MailHistory.plan_start
+  - MailHistory.modified
+contain:
+  CustomerOrganization.name
+  cUser.name
+  mUser.name
+order:
+  MailHistory.send_start_date: DESC
+  MailHistory.plan_start: ASC
+limit: 50

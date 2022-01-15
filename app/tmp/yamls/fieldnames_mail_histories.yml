@@ -1,0 +1,13 @@
+---
+id: ID
+customer_organization_id: 宛先
+send_start_date: 送信開始日時
+send_end_date: 送信終了日時
+user_id: 送信者
+send_order_count: 指定件数
+success_count: 成功件数
+failure_count: 失敗件数
+template_seq: テンプレートID
+plan_start: 送信予定日時
+modified: 更新日時
+modified_user_id: 更新者

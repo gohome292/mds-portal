@@ -1,0 +1,21 @@
+---
+Information: お知らせ
+Documents: 報告書
+Equipment: 機器管理情報
+Drivers: ドライバー
+Manuals: マニュアル
+DriverManualTypes: ドライバー・マニュアルの分類
+MacdWorkflows: MACD申請
+MailTemplates: メールテンプレート
+MailInformations: メール送信情報
+MailHistories: メール送信履歴
+MailHistory_details: メール送信履歴明細
+MailPlans: メール送信予約
+CustomerOrganizations: 顧客組織
+Users: ユーザ
+Groups: 権限
+Attachments: 添付ファイル
+menus: メニュー
+acos: その他
+aros: その他
+aros_acos: その他

@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+img.tTip						{ margin: 8px 15px 8px 0px; float: left; }
+h1								{ text-align: center; line-height: 15px; padding: 0px 0px 20px 0px; letter-spacing: -2px; }
+h1.massive						{ font-size: 72px; line-height: 10px; padding: 0px; letter-spacing: -6px; color: #f4c20a; }
+#demo_wrapper					{ width: 600px; margin: 30px auto 0px auto; }
+
+.tinyTip						{ width: 325px; padding: 17px 0px 0px 0px; display: block; background: url(../../img/vendors/jquery.tinyTips/tinyTip-top.gif) 0px 0px no-repeat; }
+/*.tinyTip						{ width: 425px; padding: 17px 0px 0px 0px; display: block; background: url(../../img/vendors/jquery.tinyTips/tinyTip-top.gif) 0px 0px no-repeat; }*/
+.tinyTip .content				{ padding: 0px 15px 0px 15px; /*font-size: 14px; font-family: "Lucida Sans Unicode";*/ color: #010101;  background: url(../../img/vendors/jquery.tinyTips/tinyTip-content.gif) 0px 0px repeat-y; }
+.tinyTip .bottom				{ height: 47px; background: url(../../img/vendors/jquery.tinyTips/tinyTip-bottom.gif) 0px 0px no-repeat; font: 0px/0px sans-serif; }

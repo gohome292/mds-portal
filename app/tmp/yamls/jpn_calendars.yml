@@ -1,0 +1,13 @@
+---
+- 
+  end_date: 2100-12-31
+  start_date: 1989-01-08
+  name: 平成
+- 
+  end_date: 1989-01-07
+  start_date: 1926-12-15
+  name: 昭和
+- 
+  end_date: 1926-12-14
+  start_date: 1912-07-30
+  name: 大正

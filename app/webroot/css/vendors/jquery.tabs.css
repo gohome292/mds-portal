@@ -1,0 +1,19 @@
+#tab_menu a {
+    font-size: 80%;
+    color: #000000;
+}
+.tabs a, .tabs a:link, .tabs a:visited {
+    text-decoration: none;
+    color: #0000FF;
+}
+.tabs a:hover {
+    text-decoration: underline;
+    color: #0000FF;
+}
+.tabs a:active {
+    text-decoration: none;
+    color: #EE0000;
+}
+.tabs .paginator li {
+    margin: 0px 10px;
+}

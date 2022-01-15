@@ -1,0 +1,18 @@
+.login {
+    padding-top: 80px;
+}
+.frame {
+    text-align: center;
+}
+.frame > table {
+    border: 1px solid #CCCCCC;
+    margin: auto;
+}
+.frame > table {
+}
+.frame img {
+    padding: 20px;
+}
+.input input {
+    ime-mode: disabled;
+}

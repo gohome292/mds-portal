@@ -1,0 +1,14 @@
+---
+fields:
+  - Manual.id
+  - Manual.type
+  - Manual.category
+  - Manual.comment
+  - Manual.modified
+
+contain:
+  - CustomerOrganization.name
+  - Attachment
+order:
+  Manual.modified: ASC
+limit: 1000

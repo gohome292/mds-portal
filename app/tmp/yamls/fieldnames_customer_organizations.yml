@@ -1,0 +1,10 @@
+---
+id: ID
+parent_id: 親組織
+top_parent_id: 会社
+name: 組織名
+level: 階層
+lft: 左
+rght: 右
+sort: 順番
+disabled: 使用不可

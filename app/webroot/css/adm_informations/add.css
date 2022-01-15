@@ -1,0 +1,17 @@
+.regular label {
+    display: inline;
+    margin-right: 10px;
+}
+legend {
+    display: none;
+}
+fieldset {
+    border: none;
+}
+#InformationTitle {
+    width: 400px;
+}
+#InformationContent {
+    width: 400px;
+    height: 150px;
+}

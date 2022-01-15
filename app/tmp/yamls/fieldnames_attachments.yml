@@ -1,0 +1,11 @@
+---
+id: ID
+model: モデル
+foreign_key: 外部キー
+basename: ファイル名
+extension: 拡張子
+size: サイズ
+alternative: 代替テキスト
+identifier: 識別子
+created: 作成日時
+modified: 更新日時

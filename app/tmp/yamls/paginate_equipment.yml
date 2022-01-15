@@ -1,0 +1,9 @@
+---
+fields:
+  - Equipment.id
+contain:
+  - CustomerOrganization.name
+  - Attachment
+order:
+  CustomerOrganization.lft: ASC
+limit: 1000

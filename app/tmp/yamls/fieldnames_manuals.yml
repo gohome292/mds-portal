@@ -1,0 +1,9 @@
+---
+id: ID
+driver_manual_type_id: 分類リスト
+type: タイプ
+category: カテゴリ
+created: 登録日時
+created_user_id: 登録者
+modified: 更新日時
+modified_user_id: 更新者

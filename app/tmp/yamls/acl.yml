@@ -1,0 +1,68 @@
+---
+Group:
+  1:
+    deny:
+      - *
+    allow:
+      - SystemMessages
+      - Users
+      - CustomerOrganizations/refer
+      - AdmInformations
+      - AdmDocuments
+      - AdmEquipments
+      - AdmDrivers
+      - AdmManuals
+      - MailTemplates
+      - MailHistories
+
+  2:
+    deny:
+      - *
+    allow:
+      - SystemMessages
+      - Users/login_rec
+      - Users/self_edit
+      - Users/index
+      - Users/view
+      - Users/add
+      - Users/edit
+      - Users/output_log
+      - CustomerOrganizations/refer
+      - AdmInformations/index
+      - AdmInformations/view
+      - AdmInformations/add
+      - AdmInformations/edit
+      - AdmDocuments/index
+      - AdmDocuments/block_index
+      - AdmDocuments/add
+      - AdmDocuments/edit
+      - AdmEquipments/index
+      - AdmEquipments/block_index
+      - AdmEquipments/add
+      - AdmEquipments/edit
+      - AdmDrivers/index
+      - AdmDrivers/block_index
+      - AdmDrivers/add
+      - AdmDrivers/edit
+      - AdmManuals/index
+      - AdmManuals/block_index
+      - AdmManuals/add
+      - AdmManuals/edit
+      - MailTemplates
+      - MailHistories
+  3:
+    deny:
+      - *
+    allow:
+      - Users/login_rec
+      - Users/self_edit
+      - Information
+      - Documents
+      - Equipment
+      - Drivers
+      - Manuals
+      - MacdWorkflows
+User:
+  1:
+     allow:
+      - *

@@ -1,0 +1,54 @@
+#left_area, #right_area {
+    margin-top: 0px;
+}
+#left_area {
+    margin-left: 5px;
+    width: 200px;
+}
+#right_area {
+    width: 655px;
+}
+#right_area table {
+    width: 100%;
+}
+#right_area .file {
+    line-height: 1.6;
+}
+#frame {
+    margin: 3px 6px;
+}
+#frame td {
+    padding: 0px;
+}
+
+#type_list {
+    width: 250px;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+#manual_title {
+    width: 645px;
+    font-weight: bold;
+    border: 1px solid #CCCCCC;
+    background: #F5F5F5;
+    padding-left: 10px;
+}
+#right_area th, #right_area td {
+    padding-left: 6px;
+    padding-right: 6px;
+}
+#right_area .mdscomment {
+    width: 100px;
+    line-height: 1.6;
+}
+.tinyTip .content {
+    font-size: 80%;
+    line-height: 1.6;
+}
+#tree_customerorganization_area, .list th, .list td {
+    font-size: 80%;
+}
+#tree_customerorganization_area {
+    line-height: 1;
+}

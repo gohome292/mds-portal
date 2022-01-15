@@ -1,0 +1,99 @@
+/* display */
+.hidden {
+    display: none;
+}
+.invisible {
+    visibility: hidden;
+}
+
+/* line cycle */
+.listOdd {
+    background: #FFFFFF;
+}
+.listEven {
+    background: #F2F2F2;
+}
+
+/* text-align */
+.left {
+    text-align: left;
+}
+.center {
+    text-align: center;
+}
+.right {
+    text-align: right;
+}
+
+/* vertical-align */
+.top {
+    vertical-align: top;
+}
+.middle {
+    vertical-align: middle;
+}
+.bottom {
+    vertical-align: bottom;
+}
+
+/* ime */
+.ime_on {
+    ime-mode: active;
+}
+.ime_off {
+    ime-mode: disabled;
+}
+
+/* validation */
+.required_mark {
+    color: red;
+    margin-left: 5px;
+}
+.failure {
+    color: #990000;
+    font-weight: bold;
+    font-size: 90%;
+}
+.success {
+    color: blue;
+    font-weight: bold;
+    font-size: 90%;
+}
+.comment {
+    color: #808080;
+    font-size: 90%;
+}
+
+/* list */
+.horizon ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.horizon li {
+    padding: 0px;
+    display: inline;
+    vertical-align: middle;
+}
+
+/* others */
+.new {
+    color: red;
+    font-weight: bold;
+}
+.numeric {
+    ime-mode: disabled;
+    text-align: right;
+}
+.focus {
+    background: #FEDEFA;
+}
+.none_border {
+    border: none;
+}
+.small {
+    font-size: 90%;
+}
+.record {
+    cursor: default;
+}

@@ -1,0 +1,9 @@
+id,username,password,name,group_id,email,customer_organization_id,top_customer_organization_id,company_name_for_mail,person_name_for_mail
+1,administrator,hkdricoh,メンテナンスユーザ,1,admininistrator@example.com,,,,
+2,admin_taro,portal1204,管理者太郎,1,admin_taro@example.com,,,,
+3,ricoh_taro,portal1204,リコー太郎,3,ricoh_taro@example.com,4,1,リコー商会,リコー太郎
+4,ricoh_hanako,portal1204,リコー花子,3,ricoh_hanako@example.com,5,1,リコー商会,リコー花子
+5,ricoh_jiro,portal1204,リコー次郎,3,ricoh_jiro@example.com,6,1,リコー商会,リコー次郎
+6,ricoh_ryohko,portal1204,リコー良子,3,ricoh_ryohko@example.com,7,1,リコー商会,リコー良子
+7,ricoh_saburo,portal1204,リコー三郎,3,ricoh_saburo@example.com,8,1,リコー商会,リコー三郎
+8,ricoh_masako,portal1204,リコー正子,3,ricoh_masako@example.com,9,1,リコー商会,リコー正子

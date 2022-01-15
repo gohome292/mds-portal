@@ -1,0 +1,11 @@
+---
+id: ID
+customer_organization_id: 顧客
+level: 階層レベル
+regular: 常時表示
+title: 件名
+content: 本文
+created: 登録日時
+created_user_id: 登録者
+modified: 更新日時
+modified_user_id: 更新者

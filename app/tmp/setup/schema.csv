@@ -1,0 +1,185 @@
+お知らせ／information,,,,,,,
+項目名,カラム名,データ型,長さ,Valdiate,Default,Index,備考
+ID,id,integer,,,,,
+顧客,customer_organization_id,integer,,required | inListDB,,*,第1階層組織
+階層レベル,level,integer,,"required | numeric | range[0,10]",,,"1:第1階層,2:第2階層･･･,9:全体"
+常時表示,regular,boolean,,,FALSE,,"FALSE:トップページには新しい情報のみ表示
+TRUE:トップページに別枠で全件表示"
+件名,title,text,40,required | maxLen[40],,,
+本文,content,text,,required,,,
+登録日時,created,datetime,,,,,
+登録者,created_user_id,integer,,,,,Model:User
+更新日時,modified,datetime,,,,,
+更新者,modified_user_id,integer,,,,,Model:User
+
+報告書／documents,,,,,,,
+項目名,カラム名,データ型,長さ,Valdiate,Default,Index,備考
+ID,id,integer,,,,,
+年月,year_month,text,6,required,,,ex)201204
+顧客組織,customer_organization_id,integer,,required | inListDB,,*,
+コメント,comment,text,,,,,
+登録日時,created,datetime,,,,,
+登録者,created_user_id,integer,,,,,Model:User
+更新日時,modified,datetime,,,,,
+更新者,modified_user_id,integer,,,,,Model:User
+
+機器管理情報／equipment,,,,,,,
+項目名,カラム名,データ型,長さ,Valdiate,Default,Index,備考
+ID,id,integer,,,,,
+顧客組織,customer_organization_id,integer,,required | inListDB,,*,
+登録日時,created,datetime,,,,,
+登録者,created_user_id,integer,,,,,Model:User
+更新日時,modified,datetime,,,,,
+更新者,modified_user_id,integer,,,,,Model:User
+,,,,,,,
+メールテンプレート／mail_templates,,,,,,,
+項目名,カラム名,データ型,長さ,Valdiate,Default,Index,備考
+ID,id,integer,,,,,
+顧客会社,customer_organization_id,integer,,inListDB,,*,第1階層組織
+件名,title,text,80,required | maxLen[80],,,
+本文,body,text,,required,,,
+,,,,,,,
+メール送信情報／mail_informations,,,,,,,
+項目名,カラム名,データ型,長さ,Valdiate,Default,Index,備考
+ID,id,integer,,,,,
+メール送信履歴,mail_history_id,integer,,,,,
+ユーザ,user_id,integer,,,,,
+開始日時,start_date,datetime,,,,,
+終了日時,end_date,datetime,,,,,
+完了予測時間帯,forecast_end_time,text,20,,,,
+メール件数,mail_count,integer,,,0,,50以下になるよう制限
+確認日時,confirm_date,datetime,,,,,
+排他開始日時,lock_date,datetime,,,,,
+,,,,,,,
+メール送信履歴／mail_histories,,,,,,,
+項目名,カラム名,データ型,長さ,Valdiate,Default,Index,備考
+ID,id,integer,,,,,"メール送信の最初にデータ生成して
+成功・失敗件数は後でUpdateする。"
+宛先,customer_organization_id,integer,,,,*,第1階層組織
+送信開始日時,send_start_date,datetime,,,,,
+送信終了日時,send_end_date,datetime,,,,,開始日時からタイムアウト時間を過ぎても送信日時が入っていない場合は、処理が途中で中断されてしまった可能性があるので、その旨を表示する。
+指定件数,send_order_count,integer,,,0,,
+成功件数,success_count,integer,,,0,,
+失敗件数,failure_count,integer,,,0,,失敗宛先リストはテキストファイルで管理。
+,,,,,,,
+メール送信履歴明細／mail_history_details,,,,,,,
+項目名,カラム名,データ型,長さ,Valdiate,Default,Index,備考
+ID,id,integer,,,,,
+メール送信履歴ID,mail_history_id,integer,,,,*,
+顧客組織,customer_organization_path,text,250,,,,ex)佐川急便 > 北海道支社 > 札幌中央店
+氏名,user_name,text,20,,,,
+送信元,from,text,80,,,,
+宛先,to,text,80,,,,
+件名,title,text,80,,,,
+本文,body,text,,,,,
+送信日時,send_date,datetime,,,,,
+成功,success,boolean,,,FALSE,,
+,,,,,,,
+メール送信予約／mail_plans,,,,,,,
+項目名,カラム名,データ型,長さ,Valdiate,Default,Index,備考
+ID,id,integer,,,,,
+顧客組織,customer_organization_path,text,250,,,,ex)佐川急便 > 北海道支社 > 札幌中央店
+氏名,user_name,text,20,,,,
+送信元,from,text,80,,,,
+宛先,to,text,80,,,,
+件名,title,text,80,,,,
+本文,body,text,,,,,
+,,,,,,,
+顧客組織／customer_organizations,,,,,,,
+項目名,カラム名,データ型,長さ,Valdiate,Default,Index,備考
+ID,id,integer,,,,,
+親組織,parent_id,integer,,inListDB[CustomerOrganization],,*,NULLは会社
+会社,top_parent_id,integer,,,,*,第1階層組織
+組織名,name,text,40,required | maxLen[40],,,
+階層,level,integer,,,,,"""1""は会社"
+左,lft,integer,,,,,
+右,rght,integer,,,,,
+順番,sort,integer,,"required | numeric | range[0,10000]",,,
+使用不可,disabled,boolean,,,FALSE,,
+
+ユーザ／users,,,,,,,
+項目名,カラム名,データ型,長さ,Valdiate,Default,Index,備考
+ID,id,integer,,,,,
+ログインID,username,text,80,"required | single | unique | between[3,80]",,,
+パスワード,password,text,50,required,,,
+氏名,name,text,20,required | maxLen[20],,,
+権限,group_id,integer,,required | inListDB,,*,
+顧客組織,customer_organization_id,integer,,inListDB,,*,"""権限=お客様""の時に必須"
+顧客会社,top_customer_organization_id,integer,,,,*,"""権限=お客様""の時に必須
+第1階層組織　検索用"
+メールアドレス,email,text,80,email | maxLen[80],,,
+表示用会社名,company_name_for_mail,text,100,maxLen[100],,,
+表示用氏名,person_name_for_mail,text,100,maxLen[100],,,
+受付連絡先,contact_address,text,200,maxLen[200],,,
+メールコメント,comment,text,,,,,
+自由項目1,freeword1,text,100,maxLen[100],,,
+自由項目2,freeword2,text,100,maxLen[100],,,
+メール送信,sendmail,boolean,,,FALSE,,"TRUE:メール一括送信の対象
+FALSE:メール一括送信の対象から除外"
+ログイン日時,login,datetime,,,,,
+ログアウト日時,logout,datetime,,,,,
+お知らせ閲覧日時,access_information,datetime,,,,,
+報告書閲覧日時,access_documents,datetime,,,,,
+使用不可,disabled,boolean,,,FALSE,,
+,,,,,,,
+権限／groups,,,,,,,
+項目名,カラム名,データ型,長さ,Valdiate,Default,Index,備考
+ID,id,integer,,,,,
+名前,name,text,20,,,,"リコージャパン
+リコーテクノシステムズ
+お客様"
+,,,,,,,
+添付ファイル／attachments,,,,,,,
+項目名,カラム名,データ型,長さ,Valdiate,Default,Index,備考
+ID,id,text,36,,,,
+モデル,model,text,20,,,,
+外部キー,foreign_key,integer,,,,,
+ファイル名,basename,text,40,,,,
+拡張子,extension,text,5,required | single | maxLen[5] | inList[*],,,
+サイズ,size,integer,,"required | numeric | range[0,*]",,,
+代替テキスト,alternative,text,40,,,,
+識別子,identifier,text,20,,,,
+作成日時,created,datetime,,,,,
+更新日時,modified,datetime,,,,,
+
+メニュー／menus,,,,,,,
+項目名,カラム名,データ型,長さ,Valdiate,Default,Index,備考
+ID,id,integer,,,,,
+親,parent_id,integer,,,,,
+メニュー名,name,text,20,,,,
+リンク,link,text,100,,,,
+階層,level,integer,,,,,
+グループ権限,groups,text,50,,,,
+ユーザ権限,users,text,50,,,,
+左,lft,integer,,,,,
+右,rght,integer,,,,,
+
+その他／acos,,,,,,,
+項目名,カラム名,データ型,長さ,Valdiate,Default,Index,備考
+その他,id,integer,,,,,
+その他,parent_id,integer,,,,,
+その他,model,text,10,,,,
+その他,foreign_key,integer,,,,,
+その他,alias,text,50,,,,
+その他,lft,integer,,,,,
+その他,rght,integer,,,,,
+
+その他／aros,,,,,,,
+項目名,カラム名,データ型,長さ,Valdiate,Default,Index,備考
+その他,id,integer,,,,,
+その他,parent_id,integer,,,,,
+その他,model,text,50,,,,
+その他,foreign_key,integer,,,,,
+その他,alias,text,50,,,,
+その他,lft,integer,,,,,
+その他,rght,integer,,,,,
+
+その他／aros_acos,,,,,,,
+項目名,カラム名,データ型,長さ,Valdiate,Default,Index,備考
+その他,id,integer,,,,,
+その他,aro_id,integer,,,,,
+その他,aco_id,integer,,,,,
+その他,_create,text,2,,,,
+その他,_read,text,2,,,,
+その他,_update,text,2,,,,
+その他,_delete,text,2,,,,

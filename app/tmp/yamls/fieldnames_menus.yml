@@ -1,0 +1,10 @@
+---
+id: ID
+parent_id: 親
+name: メニュー名
+link: リンク
+level: 階層
+groups: グループ権限
+users: ユーザ権限
+lft: 左
+rght: 右

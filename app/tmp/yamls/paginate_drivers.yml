@@ -1,0 +1,14 @@
+---
+fields:
+  - Driver.id
+  - Driver.place
+  - Driver.kiki
+  - Driver.comment
+  - Driver.modified
+
+contain:
+  - CustomerOrganization.name
+  - Attachment
+order:
+  Driver.modified: ASC
+limit: 1000

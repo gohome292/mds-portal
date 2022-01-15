@@ -1,0 +1,74 @@
+------------------------------------------------------------
+Information
+
+'customer_organization_id' => 'required | inListDB',
+'level' => 'required | numeric | range[0,10]',
+'title' => 'required | maxLen[40]',
+'content' => 'required',
+------------------------------------------------------------
+Document
+
+'year_month' => 'required',
+'customer_organization_id' => 'required | inListDB',
+------------------------------------------------------------
+Equipment
+
+'customer_organization_id' => 'required | inListDB',
+------------------------------------------------------------
+MailTemplate
+
+'customer_organization_id' => 'inListDB',
+'title' => 'required | maxLen[80]',
+'body' => 'required',
+------------------------------------------------------------
+MailInformation
+
+------------------------------------------------------------
+MailHistory
+
+------------------------------------------------------------
+MailHistoryDetail
+
+------------------------------------------------------------
+MailPlan
+
+------------------------------------------------------------
+CustomerOrganization
+
+'parent_id' => 'inListDB[CustomerOrganization]',
+'name' => 'required | maxLen[40]',
+'sort' => 'required | numeric | range[0,10000]',
+------------------------------------------------------------
+User
+
+'username' => 'required | single | unique | between[3,80]',
+'password' => 'required',
+'name' => 'required | maxLen[20]',
+'group_id' => 'required | inListDB',
+'customer_organization_id' => 'inListDB',
+'email' => 'email | maxLen[80]',
+'company_name_for_mail' => 'maxLen[100]',
+'person_name_for_mail' => 'maxLen[100]',
+'contact_address' => 'maxLen[200]',
+'freeword1' => 'maxLen[100]',
+'freeword2' => 'maxLen[100]',
+------------------------------------------------------------
+Group
+
+------------------------------------------------------------
+Attachment
+
+'extension' => 'required | single | maxLen[5] | inList[*]',
+'size' => 'required | numeric | range[0,*]',
+------------------------------------------------------------
+Menu
+
+------------------------------------------------------------
+Aco
+
+------------------------------------------------------------
+Aro
+
+------------------------------------------------------------
+ArosAco
+

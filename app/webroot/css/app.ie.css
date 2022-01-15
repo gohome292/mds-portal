@@ -1,0 +1,15 @@
+th, td {
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.hr {
+    position: relative;
+    height: 2px;
+}
+.hr hr {
+    position: absolute;
+    left: 1%;
+}
+input.save, .submit input, .submit button {
+    width: 80px;
+}
